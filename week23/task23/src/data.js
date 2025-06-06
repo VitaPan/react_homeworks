@@ -1,30 +1,30 @@
-export const CardsArrow = [
+export const cardsArrow = [
     {
         name: 'Безлимитный 300',
         price: '300 руб/мес',
         speed: 'до 10 мбит/сек',
         info: 'Объём включенного трафика не ограничен',
-        color: 'lightblue'
+        active: false
     },
     {
         name: 'Безлимитный 450',
         price: '450 руб/мес',
         speed: 'до 50 мбит/сек',
         info: 'Объём включенного трафика не ограничен',
-        color: 'lightgreen'
+        active: false
     },
     {
         name: 'Безлимитный 550',
         price: '550 руб/мес',
         speed: 'до 100 мбит/сек',
         info: 'Объём включенного трафика не ограничен',
-        color: 'orange'
+        active: true
     },
     {
         name: 'Безлимитный 1000',
         price: '1000 руб/мес',
         speed: 'до 200 мбит/сек',
         info: 'Объём включенного трафика не ограничен',
-        color: 'grey'
+        active: false
     }
 ]
